@@ -29,14 +29,16 @@ h1 {
 
 .main .container .logo{
   background-color: cadetblue;
-  positon: relative:
-  top: 1rem;
+
+
 }
 
 .container .logo {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
+  top: 1rem;
 }
 
 .logo-left {
@@ -59,6 +61,35 @@ ul {
   font-size: 1rem;
   /*wordspace*/
 }
+
+.nav ul {
+    list-style: none;
+}
+
+.nav ul li{
+  display: inline-block;
+  padding: 1rem 2rem 1rem 0;
+}
+
+.heading {
+  position: relative;
+  top: 10rem;
+  right: -2rem;
+  float: right;
+
+  text-transform: uppercase;
+  background-color: white;
+  font-size: 1rem;
+  line-height: 1.2;
+  padding: 1.5rem 5rem;
+  width: 25rem;
+
+
+}
+
+
+
+
 
 
 
