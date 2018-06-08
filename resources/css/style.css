@@ -1,0 +1,74 @@
+/* UNIVERSAL STYLES */
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: 'Helvetica', sans-serif;
+  line-height: 1.4;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* HEADER SECTION */
+
+.main {
+  background-image: url("../../resources/images/glasses-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 33rem;
+}
+
+.main .container .logo{
+  background-color: cadetblue;
+  positon: relative:
+  top: 1rem;
+}
+
+.container .logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo-left img {
+  height: 1.5rem;
+  padding: 0 1rem 0 2rem;
+}
+
+.logo-left .title,
+ul {
+  color: white;
+  /*wordspace*/
+}
+
+.logo-left .title {
+  font-size: 1rem;
+  /*wordspace*/
+}
+
+
+
+
+
+
+
+/* SERVICES SECTION */
+
+
+/* BUSINESS INFORMATION SECTION */
+
+/* FOOTER SECTION */
