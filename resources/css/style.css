@@ -51,13 +51,13 @@ h1 {
   padding: 0 1rem 0 2rem;
 }
 
-.logo-left .title,
+.logo-left .store-name,
 ul {
   color: white;
   /*wordspace*/
 }
 
-.logo-left .title {
+.logo-left .store-name {
   font-size: 1rem;
   /*wordspace*/
 }
@@ -183,7 +183,7 @@ ul {
 }
 
 .service-image img {
-  
+
   max-width: 5rem;
 }
 
@@ -244,4 +244,11 @@ footer .container {
   background-color: azure;
   margin-top: 5rem;
   padding: 4rem 1rem 4rem 4rem;
+  display: flex;
+  align-items: center;
+}
+
+footer img {
+  height: 1.5rem;
+  padding-right: 1rem;
 }
