@@ -87,14 +87,31 @@ ul {
 
 }
 
+@media only screen and (max-width: 1024px) {
+  .main {
+    height: 22rem;
+  }
 
+  .heading {
+    position: relative;
+    top: 5rem;
+    right: 2rem;
+    float: right;
+    text-transform: uppercase;
+    background-color: white;
+    font-size: 1rem;
+    line-height: 1.2;
+    padding: 0.75rem 4rem;
+    width: 20rem; /* dit is niet helemaal correct */}
 
+  .container .logo {
+    position: relative;
+    top: 0rem;
+  }
+}
 
-
-
-
-
-
+@media only screen and (max-width: 470px) {
+}
 
 
 /* SERVICES SECTION */
