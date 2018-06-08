@@ -71,6 +71,10 @@ ul {
   padding: 1rem 2rem 1rem 0;
 }
 
+.mobile-nav {
+  display: none;
+}
+
 .heading {
   position: relative;
   top: 10rem;
@@ -108,15 +112,136 @@ ul {
     position: relative;
     top: 0rem;
   }
+
+  .mobile-nav {
+    display: none;
+  }
+
 }
 
+/* MOBILE STYLE NIET GELUKT, DUS NOGMAALS NAAR KIJKEN */
 @media only screen and (max-width: 470px) {
+  .main {
+    height: 17rem;
+    background-position: 20%; /* dit is nieuw voor mij - werken met procenten*/
+  }
+
+  .heading {
+    position: relative;
+    top: 9rem;
+
+    text-transform: uppercase;
+    background-color: white;
+    font-size: 1rem;
+    line-height: 1.2;
+    padding: 1rem 0rem;
+    width: 100%; /* dit is niet helemaal correct */}
+
+  .container .logo {
+    position: relative;
+    top: 0rem;
+  }
+
+  .logo-left .title {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: inline-block;
+    float: left;
+  }
+
+
 }
 
 
 /* SERVICES SECTION */
+.services,
+.business-info {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3rem;
+}
+
+.services {
+  /*width: 30%;*/
+
+
+}
+
+.service {
+  /*height: 8rem;*/
+  width: 5rem;
+
+}
+
+.service-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8rem;
+}
+
+.service-image img {
+  
+  max-width: 5rem;
+}
+
+.service .description {
+  display: block;
+  text-align: center;
+}
+
+/* TIJDELIJK UITGESCHAKELD,
+@media only screen and (max-width: 470px) {
+
+.services,
+.business-info {
+  flex-wrap: wrap;
+  }
+
+.service,
+.info {
+  width: 90%;
+  margin: auto;
+}
+
+  .services {
+    margin: 3.77rem 0;
+  }
+
+  .service {
+    margin-bottom: 1.54rem;
+    font-size: 0.77rem;
+  }
+}
+*/
+
+
 
 
 /* BUSINESS INFORMATION SECTION */
+.info {
+  max-width: 35%;
+  margin-right: 5%;
+}
+
+.title {
+  display: block;
+  background-color: cadetblue;
+  padding: 0.5rem 1.25rem;
+  font-weight: bold;
+  color: white;
+  width: 180px;
+  text-transform: uppercase;
+  /*border-radius: 5px;*/
+  margin-bottom: 1rem;
+}
 
 /* FOOTER SECTION */
+
+footer .container {
+  background-color: azure;
+  margin-top: 5rem;
+  padding: 4rem 1rem 4rem 4rem;
+}
